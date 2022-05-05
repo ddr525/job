@@ -1,0 +1,11 @@
+max-width: 1440px;
+max-width: 1199px
+mobile: min-width: 992px
+max-width: 767px
+
+
+mobiles - max-width: 481px
+tablets - max-width: 769px
+laptops - max-width: 1025px 
+Desktops - max-width: 1201px
+Extra large screens - min-width: 1201px
