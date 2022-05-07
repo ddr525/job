@@ -1,13 +1,22 @@
-body{
+body {
     line-height: 22px;
     font-weight: 400;
     font-size: 14px;
-    color: #818995;
+    color: #818995
+}
+
+main.main .product-image {
+    max-width: 50%;
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid #000
 }
 
 main.main .product-info {
+    max-width: 50%;
+    width: 50%;
     margin-bottom: -9px;
-    padding-left: 80px;
+    padding-left: 80px
 }
 
 main.main .product-info h1 {
@@ -17,7 +26,7 @@ main.main .product-info h1 {
     line-height: 30px;
     color: #3e4a5e;
     word-break: break-word;
-    display: block;
+    display: block
 }
 
 main.main .product-info .price-block {
@@ -26,37 +35,35 @@ main.main .product-info .price-block {
     padding-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
     line-height: 100%;
-    display: flex;
+    display: flex
 }
 
 main.main .product-info .price-block .price {
     color: #3e4a5e;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 main.main .product-info .description {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6
 }
 
 main.main .product-info .description ul {
     list-style: none;
-    padding: 0;
+    padding: 0
 }
 
 main.main .product-info .description ul li {
-    padding: 3px 0;
-
+    padding: 3px 0
 }
-
 
 main.main .product-info .description ul li::before {
     content: "";
     width: 5px;
     height: 5px;
-    background: #C2B9A2;
+    background: #c2b9a2;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -65,5 +72,5 @@ main.main .product-info .description ul li::before {
     display: inline-block;
     margin-right: 10px;
     position: relative;
-    top: -1px;
+    top: -1px
 }
